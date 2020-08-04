@@ -1,4 +1,4 @@
-# binary-crypto
+# Red Sun
 Predict cryptocurrency price movement
 
 A current project of mine. 
