@@ -1,0 +1,4 @@
+Date,symbol,last_action,old_amount,new_amount,current_price,buy_price,change_percent
+2022-12-07 17:00:00,POND/USD,Sell,1000000.0,1000000.0,0.0087,0.0087,0.0
+2022-12-07 18:00:00,POND/USD,Buy,1000000.0,1000000.0,0.0086,0.0086,0.0
+2022-12-07 19:00:00,POND/USD,Buy,1000000.0,1000000.0,0.0087,0.0086,0.0
