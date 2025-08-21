@@ -12,13 +12,13 @@ Since I first heard of Bitcoin at 13 years old(2012), til buying Dogecoin as a j
 
 This project is being designed as an application with a command-line interface. 
 
-It implements Tensorflow, sklearn, keras, ta, numpy, pandas, matplotlib...
+It implements PyTorch, sklearn, keras, ta, numpy, pandas, matplotlib...
 
-It connects to the BinanceAPI as well as the KrakenAPI to get hourly cryptocurrency data and turn it into a machine learning ready data format.
+It connects to the BinanceAPI to get hourly cryptocurrency data, extracts features and processes data using pandas, turning it into a machine learning ready data format.
 
 Its learning algorithm is fairly simple, it looks at a sequence of previous hours data and makes a prediction, up or down, and trades accordingly.
 
-As this program is designed, it concurrently trades 40+ crypto currencies and keeps track of all of their history of trades. This spread out approach to trading ensures that a generalized machine learning algorithm can be applied irrespective of individual differences in coins price action.
+As this program is designed, it concurrently trades multiple crypto currencies and keeps track of all of their history of trades. This spread out approach to trading ensures that a generalized machine learning algorithm can be applied irrespective of individual differences in coins price action.
 
 An Example of Automated Trading:
 

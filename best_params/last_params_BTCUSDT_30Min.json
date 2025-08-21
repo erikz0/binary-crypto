@@ -1,0 +1,65 @@
+{
+  "TRAIN": {
+    "Trades": 5005.0,
+    "TradeRate": 0.20421903052064633,
+    "WinRate": 40.91908091908092,
+    "avg_R_winners": 0.003454584007809102,
+    "avg_R_losers": -0.0024163267829574553,
+    "expectancy_R": -1.400404579663425e-05,
+    "ending_balance": 1006348.3640070888,
+    "pnl": 6348.364007094045,
+    "percent_gains": 0.6348364007094045,
+    "sharpe": -0.2556031256393543,
+    "avg_hold_bars": 2.27012987012987,
+    "Score_slice": 0.0063483640070940445
+  },
+  "TEST": {
+    "Trades": 1569.0,
+    "TradeRate": 0.22427101200686106,
+    "WinRate": 42.001274697259404,
+    "avg_R_winners": 0.004052458379921182,
+    "avg_R_losers": -0.002601950053328045,
+    "expectancy_R": 0.00019298631219855848,
+    "ending_balance": 1090638.2187490757,
+    "pnl": 90638.21874907643,
+    "percent_gains": 9.063821874907644,
+    "sharpe": 1.5650839783928554,
+    "avg_hold_bars": 2.27151051625239,
+    "Score_slice": 0.09063821874907643
+  },
+  "FUTURE": {
+    "Trades": 687.0,
+    "TradeRate": 0.19667907243057545,
+    "WinRate": 41.3391557496361,
+    "avg_R_winners": 0.004277171488650996,
+    "avg_R_losers": -0.0029036462156994706,
+    "expectancy_R": 6.484319919941215e-05,
+    "ending_balance": 1006286.5561052468,
+    "pnl": 6286.556105245259,
+    "percent_gains": 0.6286556105245258,
+    "sharpe": 0.3770862798809223,
+    "avg_hold_bars": 2.222707423580786,
+    "Score_slice": 0.006286556105245258
+  },
+  "Aggregate": {
+    "Score": -0.056745078014663525,
+    "HyperParams": {
+      "seq_len": 8,
+      "horizon": 3,
+      "num_layers": 3,
+      "hidden_size": 32,
+      "dropout": 0.3,
+      "max_epochs": 10,
+      "lr": 0.0005,
+      "weight_decay": 0.0001,
+      "batch_size": 128,
+      "patience": 5,
+      "ma_window": 30,
+      "take_k": 0.30400453754885004,
+      "rolling_size": 50,
+      "stop_k": 0.8859647918800968,
+      "entry_k": 0.7470123988105767,
+      "threshold": 0.5
+    }
+  }
+}
